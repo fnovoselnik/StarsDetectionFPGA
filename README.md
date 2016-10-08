@@ -1,0 +1,3 @@
+# StarsDetectionFPGA
+
+C# application
