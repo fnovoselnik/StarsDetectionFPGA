@@ -1,6 +1,6 @@
-# StarsDetectionFPGA
+## StarsDetectionFPGA
 
-C# application - loading greyscale image and sending it over serial port to Nexys3 Spartan-6 FPGA. After an image is processed, it receives coordinates of detected stars and marks detections on original image.
+C# application - loading greyscale image and sending it over Serial port (UART) to Nexys3 Spartan-6 FPGA. After an image is processed, it receives coordinates of detected stars and marks detections on original image.
 
 Nexys3 Spartan-6 FPGA - runs image processing algorithm for stars detection on night sky image (written in C)
 
