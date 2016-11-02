@@ -5,8 +5,8 @@ C# application - loading greyscale image and sending it over serial port to Nexy
 Nexys3 Spartan-6 FPGA - runs image processing algorithm for stars detection on night sky image (written in C)
 
 Stars detection algorithm:
-1. Calculates average of whole image
-2. Moving window over image (size of window is predefined)
+1. Calculates average of whole image <br />
+2. Moving window over image (size of window is predefined) <br />
 3. If average intensity inside window is larger than image average it assumes it is star
 4. It finds pixel with maximum intensity inside window (center of the star)
 5. Sends coordinates (x,y) of detected stars back to C# application over Serial Port (UART)
